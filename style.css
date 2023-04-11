@@ -11,3 +11,6 @@ nav li{
 header a{
     color: white;
 }
+main{
+    min-height: 264px;
+}
