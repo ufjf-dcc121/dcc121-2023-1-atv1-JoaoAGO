@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games</title>
     <link rel="stylesheet" href="style.css"/>
+    <style>
+        .serie{
+            color: green;
+        }
+        .filme{
+            color: blue;
+        }
+        .jogo{
+            color: orangered;
+        }
+        p > .jogo{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Jogos jogados</h1>
         <nav>
             <ul>
-                <li><a href="https://ufjf-dcc121.github.io/dcc121-2023-1-atv1-JoaoAGO/index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">Listas</a></li>
-                <li><a href="https://ufjf-dcc121.github.io/dcc121-2023-1-atv1-JoaoAGO/outro.html">Outro</a></li>
+                <li><a href="outro.html">Outro</a></li>
             </ul>
         </nav>
     </header>
@@ -21,28 +35,30 @@
     <p>Quatro útlimos jogos que eu joguei:</p>
 
     <ol>
-        <li>Elden Ring</li>
-        <li>Harry Potter Hogwarts Legacy</li>
-        <li>Mount & Blade II - Bannerlord</li>
-        <li>Fable III</li>
+        <li class="jogo">Elden Ring</li>
+        <li class="jogo">Harry Potter Hogwarts Legacy</li>
+        <li class="jogo">Mount & Blade II - Bannerlord</li>
+        <li class="jogo">Fable III</li>
     </ol>
+    <p>E o <span class="jogo">Harry Potter Hogwarts Legacy</span> foi meu preferido</p>
+
 
     <p>Filmes e Séries que assisti:</p>
 
     <ul>
-        <li style="color: blue;">
-            <div><h4>Filmes</h4></div>
+        <li>
+            <div class="filme"><h4>Filmes</h4></div>
             <ul>
-                <li>John Wick 4: Baba Yaga
-                <li>O Senhor dos Anéis: A Sociedade do Anel</li>
+                <li class="filme">John Wick 4: Baba Yaga
+                <li class="filme">O Senhor dos Anéis: A Sociedade do Anel</li>
             </ul>
         </li>
         
-        <li style="color: green;">
-            <div><h4>Séries</h4></div>
+        <li>
+            <div class="serie"><h4>Séries</h4></div>
             <ul>
-                <li>Chuck</li>
-                <li>The Shannara Chronicles</li>
+                <li class="serie">Chuck</li>
+                <li class="serie">The Shannara Chronicles</li>
             </ul>
         </li>
     </ul>
